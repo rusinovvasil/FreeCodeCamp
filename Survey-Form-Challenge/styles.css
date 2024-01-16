@@ -1,0 +1,87 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #052549, transparent);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#survey-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin-top: 50px;
+  margin-right: -50px;
+}
+
+h1 {
+  text-align: center;
+  color: #4caf50;
+}
+
+p {
+  text-align: center;
+  color: #4caf50;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4caf50;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+fieldset {
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  #survey-form {
+    padding: 15px;
+  }
+  body {
+    background: #2c3e50;
+  }
+}
