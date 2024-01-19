@@ -1,11 +1,36 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
   margin: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1;
+  text-align: center;
+  color: #333;
 }
 
 #main {
   max-width: 800px;
   margin: 0 auto;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0%;
+  margin-inline-end: 0px;
 }
 
 #title {
@@ -23,4 +48,8 @@ body {
 #image {
   max-width: 100%;
   height: auto;
+}
+
+html {
+  font-size: 16px;
 }
