@@ -3,7 +3,7 @@
   --building-color2: #66cc99;
   --building-color3: #cc6699;
   --building-color4: #538cc6;
-  --window-color1: black;
+  --window-color1: #bb99ff;
   --window-color2: #8cd9b3;
   --window-color3: #d98cb3;
   --window-color4: #8cb3d9;
@@ -93,6 +93,7 @@ body {
     var(--window-color2) 9%
   );
 }
+
 .bb3 {
   width: 10%;
   height: 55%;
@@ -103,6 +104,7 @@ body {
     var(--window-color3) 15%
   );
 }
+
 .bb4 {
   width: 11%;
   height: 58%;
@@ -139,7 +141,7 @@ body {
 }
 
 .fb1a {
-  border-bottom: 4vw solid var(--building-color4);
+  border-bottom: 7vh solid var(--building-color4);
   border-left: 2vw solid transparent;
   border-right: 2vw solid transparent;
 }
@@ -195,23 +197,73 @@ body {
 .fb3 {
   width: 10%;
   height: 35%;
+}
+
+.fb3a {
+  width: 80%;
+  height: 15%;
   background-color: var(--building-color1);
+}
+
+.fb3b {
+  width: 100%;
+  height: 35%;
+  background-color: var(--building-color1);
+}
+
+.fb3-window {
+  width: 25%;
+  height: 80%;
+  background-color: var(--window-color1);
 }
 
 .fb4 {
   width: 8%;
   height: 45%;
-  background-color: var(--building-color1);
   position: relative;
   left: 10%;
+}
+
+.fb4a {
+  border-top: 5vh solid transparent;
+  border-left: 8vw solid var(--building-color1);
+}
+
+.fb4b {
+  width: 100%;
+  height: 89%;
+  background-color: var(--building-color1);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.fb4-window {
+  width: 30%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: var(--window-color1);
+  margin: 10%;
 }
 
 .fb5 {
   width: 10%;
   height: 33%;
-  background-color: var(--building-color2);
+
   position: relative;
   right: 10%;
+  background: repeating-linear-gradient(
+      var(--building-color2),
+      var(--building-color2) 5%,
+      transparent 5%,
+      transparent 10%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      var(--building-color2),
+      var(--building-color2) 12%,
+      var(--window-color2) 12%,
+      var(--window-color2) 44%
+    );
 }
 
 .fb6 {
