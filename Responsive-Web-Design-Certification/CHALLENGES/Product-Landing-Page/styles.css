@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+#header-img {
+  max-height: 40px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the logo circular */
+  margin-right: 10px; /* Adds a little space to the right of the logo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth hover effect */
+}
+
+#header-img:hover {
+  transform: scale(2.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.section {
+  background-color: white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#video {
+  width: 100%;
+}
+
+#form {
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #2980b9;
+}
