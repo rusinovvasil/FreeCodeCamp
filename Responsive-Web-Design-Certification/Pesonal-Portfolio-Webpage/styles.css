@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+#welcome-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  color: rgb(28, 72, 191);
+  margin-top: -20px;
+  justify-content: center;
+}
+
+#welcome-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#projects {
+  padding: 40px;
+}
+
+.project-tile h2 {
+  font-size: 2em;
+}
+
+.project-tile p {
+  margin-bottom: 20px;
+}
+
+.project-tile a {
+  margin-top: 10px;
+  color: #1324bc;
+}
+
+.project-tile img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile {
+  border: 1px solid #bcacf5;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#profile-link {
+  color: #3498db;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar a {
+    margin: 10px 0;
+  }
+}
